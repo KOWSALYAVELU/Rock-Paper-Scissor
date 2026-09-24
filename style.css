@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.choices {
+  margin-top: 30px;
+}
+
+.choices button {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.choices img {
+  width: 120px;
+  height: 120px;
+}
+
+.choices button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px yellow;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
